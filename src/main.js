@@ -38,7 +38,7 @@ main.init()
 
 const asteroidSize = 20
 
-asteroidDraw () {
+function asteroidDraw (){
   ctx.strokeRect(-asteroidSize / 2, -asteroidSize / 2, asteroidSize, asteroidSize)
   ctx.restore()
 }
